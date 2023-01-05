@@ -1,0 +1,104 @@
+*{ 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{ 
+    background: rgb(38, 37, 37);
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.head{ 
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.total-price{ 
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+.total-price input{ 
+    
+    margin: 15px;
+    border:none ;
+    width:500px;
+    height: 30px;
+    text-align: center;
+    background:rgb(51, 48, 48) ;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    transition: 0.5s all;
+
+}
+input:focus{ 
+    background: black;
+    transform: scale(1.1);
+}
+#price:focus{ 
+    background:rgba(2, 73, 2, 0.558);
+    transform: scale(1.1);
+}#taxes:focus{ 
+    background:rgba(2, 73, 2, 0.558);
+    transform: scale(1.1);
+}
+#ads:focus{ 
+    background: rgba(2, 73, 2, 0.558) ;
+    transform: scale(1.1);
+
+}
+
+#total{ 
+    width: 80px;
+    height: 30px;
+    background: rgba(2, 73, 2, 0.558);
+    position: absolute;
+    top: 400px;
+    left:50%;
+    padding: 5px;
+}
+.confirm{ 
+    position: absolute;
+    top: 500px;
+    left: 50%;
+
+}
+#btn{ 
+    position: absolute;
+    top: 450px;
+    left: 320px;
+    width:700px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background: rgb(49, 200, 49);
+    text-align: center;
+    font-size: large;
+    cursor: pointer;
+    color: antiquewhite;
+
+}
+.confirm{  background: rgb(80, 9, 9);
+color: aliceblue;
+font-size: medium;
+border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
